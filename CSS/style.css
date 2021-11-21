@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #444444;
+    
+}
+
+a {
+    color: #ffb727;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ffc85a;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: "Raleway", sans-serif;
+  }
+
+
+  
+  /*HEADER*/
+  
+  #header {
+    z-index: 997;
+    transition: all 0.5s;
+    height: 80px;
+    background: rgba(25, 28, 31, 0.8);
+  }
+  
+  #header.header-scrolled {
+    height: 60px;
+    background: rgba(25, 28, 31, 0.8);
+  }
+  
+  /* BARRA DE NAVEGACION */
+
+  .navbar {
+    padding: 0;
+  }
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  .navbar li {
+    position: relative;
+  }
+  .navbar a, .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    color: #fff;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 12px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .navbar a i, .navbar a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+  }
+  .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+    color: #ffb727;
+  }
+  .navbar .dropdown ul {
+    display: block;
+    position: absolute;
+    left: 14px;
+    top: calc(100% + 30px);
+    margin: 0;
+    padding: 10px 0;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    background: #fff;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    transition: 0.3s;
+    border-radius: 4px;
+  }
+  .navbar .dropdown ul li {
+    min-width: 200px;
+  }
+  .navbar .dropdown ul a {
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: none;
+    font-weight: 400;
+    color: #3b434a;
+    letter-spacing: 1px;
+  }
+  .navbar .dropdown ul a i {
+    font-size: 12px;
+  }
+  .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+    color: #ffb727;
+  }
+  .navbar .dropdown:hover > ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+  }
+
+  
+  
+
+  /*SECCION DEL TITULO*/
+  
+#title {
+    width: 100%;
+    height: 100vh;
+    background: url(../Multimedia/Detrasdeltexto.jpg) top right;
+    background-size: cover;
+    position: relative;
+  }
+  #title:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  #title .title-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  #title h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-family: "Satisfy", serif;
+    color: #fff;
+  }
+  #title h2 {
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  #title .btn-scroll {
+    transition: 0.4s;
+    color: rgba(255, 255, 255, 0.6);
+    animation: up-down 1s ease-in-out infinite alternate-reverse both;
+  }
+  #title .btn-scroll i {
+    font-size: 48px;
+  }
+  #title .btn-scroll:hover {
+    color: #ffb727;
+  }
+  
+
+  
+
+  /* VIDEO PRESENTACION */
+
+  section {
+    padding: 60px 0;
+  }
+  
+  .section-bg {
+    background-color: white;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+  }
+
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #3b434a;
+    position: relative;
+    z-index: 2;
+  }
+  .section-title span {
+    position: absolute;
+    top: 30px;
+    color: #eef0f2;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 0;
+  }
+  .section-title p {
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+    font-size: 25px;
+  }
+
+  #container{
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+  }
+  .texto-video {
+      text-align: center;
+      font-size: 20px;
+      margin-top: 16%;
+      color: #ca8e14;
+      background: linear-gradient(to right, #ffffff00, #ffffff);
+  }
+
+ /* Categorias */
+.Categorias .icon-box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    border: 1px solid #fff;
+  }
+  
+  .Categorias .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .Categorias .title a {
+    color: #111;
+    transition: 0.3s;
+  }
+  .Categorias .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+  .Categorias .icon-box:hover {
+    border-color: #ffb727;
+  }
+  .Categorias .icon-box:hover .title a {
+    color: #ffb727;
+  }
+
+ 
+
+  /* FOOTER */
+
+#footer {
+    background: sandybrown top center no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 80px 0;
+    position: relative;
+  }
+  #footer::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  #footer .container {
+    position: relative;
+  }
+  #footer h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    font-family: "Satisfy", serif;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+  #footer p {
+    font-size: 15;
+    font-style: italic;
+    padding: 0;
+    margin: 0 0 40px 0;
+  }
+  #footer .social-links {
+    margin: 0 0 40px 0;
+  }
+  #footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #ffb727;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  #footer .social-links a:hover {
+    background: #f3a200;
+    color: #fff;
+    text-decoration: none;
+  }
+  #footer .copyright {
+    margin: 0 0 5px 0;
+  }
+  #footer .credits {
+    font-size: 13px;
+  }
+
+  /* LOGO DE WHATTSAPP */
+
+  .btn-wsp {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+  }
+
+  .btn-wsp:hover {
+    text-decoration: none;
+    color: #0df053;
+    background: #fff;
+  }

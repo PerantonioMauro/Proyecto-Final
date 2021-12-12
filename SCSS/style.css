@@ -1,0 +1,110 @@
+.navbar {
+  padding: 0;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a:focus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 15px;
+  color: #fff;
+  white-space: nowrap;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.navbar a i, .navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.navbar a:hover, .navbar a .active, .navbar a .active:focus, .navbar a li:hover > a {
+  color: #ffb727;
+}
+
+.navbar .dropdown ul {
+  display: block;
+  position: absolute;
+  left: 14px;
+  top: calc(100% + 30px);
+  margin: 0;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+          box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+.navbar .dropdown ul li {
+  min-width: 200px;
+}
+
+.navbar .dropdown ul a {
+  padding: 10px 20px;
+  font-size: 14px;
+  text-transform: none;
+  font-weight: 400;
+  color: #3b434a;
+  letter-spacing: 1px;
+}
+
+.navbar .dropdown ul a i {
+  font-size: 12px;
+}
+
+.navbar .dropdown ul:hover, .navbar .dropdown ul .navbar .dropdown ul .active:hover, .navbar .dropdown ul .navbar .dropdown ul li:hover > a {
+  color: #ffb727;
+}
+
+.navbar .dropdown:hover > ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+
+#header {
+  z-index: 997;
+  -webkit-transition: all 0.5;
+  transition: all 0.5;
+  height: 80px;
+  background: rgba(25, 28, 31, 0.8);
+}
+
+#header .header-scrolled {
+  height: 60px;
+  background: rgba(25, 28, 31, 0.8);
+}
+/*# sourceMappingURL=style.css.map */

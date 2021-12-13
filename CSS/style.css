@@ -28,11 +28,11 @@ h1, h2, h3, h4 {
 
 
 .navbar {
-  padding: 0;
+  padding: 0 !important;
 }
 .navbar ul {
   margin: 0;
-  padding: 0;
+  padding: 0 !important;
   display: flex;
   list-style: none;
   align-items: center;
@@ -100,11 +100,6 @@ h1, h2, h3, h4 {
   visibility: visible;
 }
 
-@media (max-width:480px) {
-  .navbar {
-    width: 100%;
-  }
-}
 
 #header {
   z-index: 997;
@@ -179,7 +174,7 @@ h1, h2, h3, h4 {
 /* VIDEO PRESENTACION */
 
 section {
-  padding: 60px 0;
+  padding: 0 !important;
 }
 
 .section-bg {
@@ -225,7 +220,7 @@ section {
   display: inline-flex;
   margin: 0;
   margin-bottom: 200px;
-  padding: 0;
+  padding: 0 !important;
 }
 .texto-video {
     text-align: center;
@@ -785,6 +780,16 @@ textarea {
 
 }
 
+@media only screen and (max-width: 700px) {
+
+  .contenedor {
+    width: 90%;
+
+
+  }
+
+  
+}
 
 
 /*# sourceMappingURL=style.css.map */

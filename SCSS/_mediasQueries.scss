@@ -1,0 +1,102 @@
+/* Medias Queries */
+
+@media (max-width:480px) {
+
+    form{
+      width: 100%;
+    }
+  
+  }
+  
+  @media screen and (max-width: 1263px) {
+    .media-body{
+      width: 29%;
+    }
+  
+    #main{
+      width: 70%;
+    }
+  
+    .contenedor{
+      width: 100%;
+    }
+  
+    article iframe{
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 970px) {
+  
+    #navbar ul li a {
+      padding: 5px;
+    }
+  
+    .media-body .texto-video{
+      width: 100%;
+      padding: 0;
+    }
+  
+  }
+  
+  @media screen and (max-width: 767px) {
+    #main{
+      width: 100%;
+    }
+  
+    iframe{
+      width: 100%;
+    }
+  
+    .media-body .texto-video{
+      width: 100%;
+      padding: 0;
+    }
+  
+    .pie-pagina{
+      width: 100%;
+      padding: 0;
+    }
+  
+  
+  
+  }
+  
+  @media screen and (max-width: 600px) {
+  
+    #navbar #navbar ul {
+      padding: 0;
+    }
+  
+    #navbar ul li {
+      text-align: center;
+      width: 100%;
+    }
+  
+    #navbar li a {
+      display: block !important;
+  
+    }
+  
+    .section-title{
+      width: 100%;
+      text-align: center;
+    }
+  
+    #title{
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+  
+    .section-title{
+      width: 100%;
+      text-align: center;
+    }
+  
+    .pie-pagina{
+      width: 100%;
+      align-items: center;
+    }
+  }

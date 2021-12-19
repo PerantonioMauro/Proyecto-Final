@@ -1,0 +1,416 @@
+/* SECCION COMEDOR */
+
+.section-comedor {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 100px;
+    position: relative;
+
+    h1{
+        font-size: 42px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+        color: #3b434a;
+        position: relative;
+        z-index: 2;
+    }
+
+    span{
+        position: absolute;
+        top: 30px;
+        color: #eef0f2;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        font-weight: 700;
+        font-size: 62px;
+        text-transform: uppercase;
+        line-height: 0;
+    }
+  
+  }
+
+  .button-container{
+    display:inline-block;
+    position:relative;
+
+    a{
+        position: absolute;
+        bottom:2em;
+        right:2em;
+        background-color: #ffc85a;
+        border-radius:1.5em;
+        color:white;
+        text-transform:uppercase;
+        padding:1em 1.5em;
+
+        &:hover{
+            background-color: chocolate ;
+            cursor:pointer;
+            color:white;
+        }
+    }
+    }
+
+/* Seccion-Registro */
+
+.ingreso{
+    width: 100%;
+    height: 100vh;
+    background: url(../Multimedia/NuestrosTrabajos/DetrasDelTexto.png) center center no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .section-ingresar {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 80px;
+    position: relative;
+
+    h1{
+        font-size: 42px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+        color: #3b434a;
+        position: relative;
+        z-index: 2;
+    }
+
+    span{
+        position: absolute;
+        top: 30px;
+        color: #eef0f2;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        font-weight: 700;
+        font-size: 62px;
+        text-transform: uppercase;
+        line-height: 0;
+    }
+  
+  }
+
+  .Ingresar {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+
+  /* Seccion Nosotros */
+
+  .quienes-somos{
+    width: 100%;
+    height: 100vh;
+    background: url(../Multimedia/NuestrosTrabajos/CasaPicasso.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .Section-nosotros {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 80px;
+    position: relative;
+
+    h1{
+        font-size: 42px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+        color: #3b434a;
+        position: relative;
+        z-index: 2;
+    }
+
+    span{
+        position: absolute;
+        top: 30px;
+        color: #eef0f2;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        font-weight: 700;
+        font-size: 62px;
+        text-transform: uppercase;
+        line-height: 0;
+    }
+  
+  }
+
+  #texto{
+    color: #ffb727;
+    font-size: 15px;
+  }
+
+  /* Seccion envios */
+
+  .section-envios {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 80px;
+    position: relative;
+
+    h1{
+        font-size: 42px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+        color: #3b434a;
+        position: relative;
+        z-index: 2;
+    }
+
+    span{
+        position: absolute;
+        top: 30px;
+        color: #eef0f2;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        font-weight: 700;
+        font-size: 62px;
+        text-transform: uppercase;
+        line-height: 0;
+    }
+  
+  }
+
+  .envios{
+    font-size: 20px;
+    color: #ffb727;
+  }
+
+  /*Seccion decoracion*/
+
+  .section-decoracion {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 80px;
+    position: relative;
+
+    h1{
+        font-size: 42px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+        color: #3b434a;
+        position: relative;
+        z-index: 2;
+    }
+
+    span{
+        position: absolute;
+        top: 30px;
+        color: #eef0f2;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        font-weight: 700;
+        font-size: 62px;
+        text-transform: uppercase;
+        line-height: 0;
+    }
+  
+  }
+
+  /*Seccion iluminacion*/
+
+  .section-iluminacion {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 80px;
+    position: relative;
+
+    h1{
+        font-size: 42px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+        color: #3b434a;
+        position: relative;
+        z-index: 2;
+    }
+
+    span{
+        position: absolute;
+        top: 30px;
+        color: #eef0f2;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        font-weight: 700;
+        font-size: 62px;
+        text-transform: uppercase;
+        line-height: 0;
+    }
+  
+  }
+
+  /*Seccion living*/
+
+  .section-living {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 80px;
+    position: relative;
+
+    h1{
+        font-size: 42px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+        color: #3b434a;
+        position: relative;
+        z-index: 2;
+    }
+
+    span{
+        position: absolute;
+        top: 30px;
+        color: #eef0f2;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        font-weight: 700;
+        font-size: 62px;
+        text-transform: uppercase;
+        line-height: 0;
+    }
+  
+  }
+
+  /*Seccion mis compras*/
+
+  .section-compras {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 80px;
+    position: relative;
+
+    h1{
+        font-size: 42px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+        color: #3b434a;
+        position: relative;
+        z-index: 2;
+    }
+
+    span{
+        position: absolute;
+        top: 30px;
+        color: #eef0f2;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        font-weight: 700;
+        font-size: 62px;
+        text-transform: uppercase;
+        line-height: 0;
+    }
+  
+  }
+
+  /*Seccion novedades*/
+
+  .section-novedades {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 80px;
+    position: relative;
+
+    h1{
+        font-size: 42px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+        color: #3b434a;
+        position: relative;
+        z-index: 2;
+    }
+
+    span{
+        position: absolute;
+        top: 30px;
+        color: #eef0f2;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        font-weight: 700;
+        font-size: 62px;
+        text-transform: uppercase;
+        line-height: 0;
+    }
+  
+  }
+
+  /*Seccion consultas*/
+
+  .consultas {
+    background-image:url(../Multimedia/NuestrosTrabajos/DetrasDelTexto.png);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+  }
+
+  form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    border-radius: 10px;
+  }
+
+  .contacto-title{
+    color: #3b434a;
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+
+  input , textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+  }
+
+  textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+
+  #button{
+    background: #ffc85a;
+    padding: 20px;
+
+    &:hover{
+        cursor: pointer;
+    }
+  }
+

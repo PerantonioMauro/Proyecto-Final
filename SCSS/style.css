@@ -95,6 +95,797 @@
   visibility: visible;
 }
 
+/* SECCION CATEGORIAS */
+.Categorias .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  -webkit-box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+          box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  border: 1px solid #fff;
+}
+
+.Categorias .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.Categorias .title a {
+  color: #111;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.Categorias .title .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.Categorias .title .icon-box:hover {
+  border-color: #ffb727;
+}
+
+.Categorias .title .icon-box:hover .title a {
+  color: #ffb727;
+}
+
+/* FOOTER */
+footer {
+  width: 100%;
+  background-color: #ca8e14;
+}
+
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+  background-color: #ca8e14;
+}
+
+.pie-pagina .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pie-pagina .grupo-1 .box img {
+  width: 200px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+  margin-bottom: 25px;
+}
+
+.pie-pagina .grupo-1 .box iframe {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ca8e14;
+}
+
+.pie-pagina .grupo-1 .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #ffb727;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.pie-pagina .grupo-1 .social-links a:hover {
+  background: #f3a200;
+  color: #fff;
+  text-decoration: none;
+}
+
+.pie-pagina .grupo-1 .pie-pagina .grupo-2 {
+  padding: 15px 10px;
+  text-align: center;
+}
+
+#header {
+  z-index: 997;
+  -webkit-transition: all 0.5;
+  transition: all 0.5;
+  height: 80px;
+  background: rgba(25, 28, 31, 0.8);
+}
+
+#header .header-scrolled {
+  height: 60px;
+  background: rgba(25, 28, 31, 0.8);
+}
+
+/* SECCION TITULO */
+#title {
+  width: 100%;
+  height: 100vh;
+  background: url(../Multimedia/Detrasdeltexto.jpg) top right;
+  background-size: cover;
+  position: relative;
+}
+
+#title:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.65);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#title .title-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 15px;
+}
+
+#title h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-family: "Satisfy", serif;
+  color: #fff;
+}
+
+#title h2 {
+  color: #eee;
+  margin-bottom: 50px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#title .btn-scroll {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: rgba(255, 255, 255, 0.6);
+  animation: up-down 1s ease-in-out infinite alternate-reverse both;
+}
+
+#title .btn-scroll i {
+  font-size: 48px;
+}
+
+#title .btn-scroll:hover {
+  color: #ffb727;
+}
+
+/* SECCION CARROUSEL */
+.carousel-inner {
+  max-height: 39rem;
+}
+
+/* LOGO DE WHATTSAPP */
+.btn-wsp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background: #0df053;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.btn-wsp:hover {
+  text-decoration: none;
+  color: #0df053;
+  background: #fff;
+}
+
+/* Medias Queries */
+@media (max-width: 480px) {
+  form {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1263px) {
+  .media-body {
+    width: 29%;
+  }
+  #main {
+    width: 70%;
+  }
+  .contenedor {
+    width: 100%;
+  }
+  article iframe {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  #navbar ul li a {
+    padding: 5px;
+  }
+  .media-body .texto-video {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #main {
+    width: 100%;
+  }
+  iframe {
+    width: 100%;
+  }
+  .media-body .texto-video {
+    width: 100%;
+    padding: 0;
+  }
+  .pie-pagina {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #navbar #navbar ul {
+    padding: 0;
+  }
+  #navbar ul li {
+    text-align: center;
+    width: 100%;
+  }
+  #navbar li a {
+    display: block !important;
+  }
+  .section-title {
+    width: 100%;
+    text-align: center;
+  }
+  #title {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .section-title {
+    width: 100%;
+    text-align: center;
+  }
+  .pie-pagina {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/* SECCION COMEDOR */
+.section-comedor {
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 100px;
+  position: relative;
+}
+
+.section-comedor h1 {
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #3b434a;
+  position: relative;
+  z-index: 2;
+}
+
+.section-comedor span {
+  position: absolute;
+  top: 30px;
+  color: #eef0f2;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 62px;
+  text-transform: uppercase;
+  line-height: 0;
+}
+
+.button-container {
+  display: inline-block;
+  position: relative;
+}
+
+.button-container a {
+  position: absolute;
+  bottom: 2em;
+  right: 2em;
+  background-color: #ffc85a;
+  border-radius: 1.5em;
+  color: white;
+  text-transform: uppercase;
+  padding: 1em 1.5em;
+}
+
+.button-container a:hover {
+  background-color: chocolate;
+  cursor: pointer;
+  color: white;
+}
+
+/* Seccion-Registro */
+.ingreso {
+  width: 100%;
+  height: 100vh;
+  background: url(../Multimedia/NuestrosTrabajos/DetrasDelTexto.png) center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.section-ingresar {
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 80px;
+  position: relative;
+}
+
+.section-ingresar h1 {
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #3b434a;
+  position: relative;
+  z-index: 2;
+}
+
+.section-ingresar span {
+  position: absolute;
+  top: 30px;
+  color: #eef0f2;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 62px;
+  text-transform: uppercase;
+  line-height: 0;
+}
+
+.Ingresar {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 15px;
+}
+
+/* Seccion Nosotros */
+.quienes-somos {
+  width: 100%;
+  height: 100vh;
+  background: url(../Multimedia/NuestrosTrabajos/CasaPicasso.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.Section-nosotros {
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 80px;
+  position: relative;
+}
+
+.Section-nosotros h1 {
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #3b434a;
+  position: relative;
+  z-index: 2;
+}
+
+.Section-nosotros span {
+  position: absolute;
+  top: 30px;
+  color: #eef0f2;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 62px;
+  text-transform: uppercase;
+  line-height: 0;
+}
+
+#texto {
+  color: #ffb727;
+  font-size: 15px;
+}
+
+/* Seccion envios */
+.section-envios {
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 80px;
+  position: relative;
+}
+
+.section-envios h1 {
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #3b434a;
+  position: relative;
+  z-index: 2;
+}
+
+.section-envios span {
+  position: absolute;
+  top: 30px;
+  color: #eef0f2;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 62px;
+  text-transform: uppercase;
+  line-height: 0;
+}
+
+.envios {
+  font-size: 20px;
+  color: #ffb727;
+}
+
+/*Seccion decoracion*/
+.section-decoracion {
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 80px;
+  position: relative;
+}
+
+.section-decoracion h1 {
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #3b434a;
+  position: relative;
+  z-index: 2;
+}
+
+.section-decoracion span {
+  position: absolute;
+  top: 30px;
+  color: #eef0f2;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 62px;
+  text-transform: uppercase;
+  line-height: 0;
+}
+
+/*Seccion iluminacion*/
+.section-iluminacion {
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 80px;
+  position: relative;
+}
+
+.section-iluminacion h1 {
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #3b434a;
+  position: relative;
+  z-index: 2;
+}
+
+.section-iluminacion span {
+  position: absolute;
+  top: 30px;
+  color: #eef0f2;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 62px;
+  text-transform: uppercase;
+  line-height: 0;
+}
+
+/*Seccion living*/
+.section-living {
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 80px;
+  position: relative;
+}
+
+.section-living h1 {
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #3b434a;
+  position: relative;
+  z-index: 2;
+}
+
+.section-living span {
+  position: absolute;
+  top: 30px;
+  color: #eef0f2;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 62px;
+  text-transform: uppercase;
+  line-height: 0;
+}
+
+/*Seccion mis compras*/
+.section-compras {
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 80px;
+  position: relative;
+}
+
+.section-compras h1 {
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #3b434a;
+  position: relative;
+  z-index: 2;
+}
+
+.section-compras span {
+  position: absolute;
+  top: 30px;
+  color: #eef0f2;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 62px;
+  text-transform: uppercase;
+  line-height: 0;
+}
+
+/*Seccion novedades*/
+.section-novedades {
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 80px;
+  position: relative;
+}
+
+.section-novedades h1 {
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #3b434a;
+  position: relative;
+  z-index: 2;
+}
+
+.section-novedades span {
+  position: absolute;
+  top: 30px;
+  color: #eef0f2;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 62px;
+  text-transform: uppercase;
+  line-height: 0;
+}
+
+/*Seccion consultas*/
+.consultas {
+  background-image: url(../Multimedia/NuestrosTrabajos/DetrasDelTexto.png);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+form {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+.contacto-title {
+  color: #3b434a;
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 17px;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+#button {
+  background: #ffc85a;
+  padding: 20px;
+}
+
+#button:hover {
+  cursor: pointer;
+}
+
+/* VIDEO PRESENTACION */
+section {
+  padding: 0 !important;
+}
+
+.section-bg {
+  background-color: white;
+}
+
+.section-title {
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #3b434a;
+  position: relative;
+  z-index: 2;
+}
+
+.section-title span {
+  position: absolute;
+  top: 30px;
+  color: #eef0f2;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 52px;
+  text-transform: uppercase;
+  line-height: 0;
+}
+
+.section-title p {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 2;
+  font-size: 25px;
+}
+
+#container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  margin-bottom: 200px;
+  padding: 0 !important;
+}
+
+.texto-video {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 16%;
+  color: #ca8e14;
+  background: -webkit-gradient(linear, left top, right top, from(#ffffff00), to(#ffffff));
+  background: linear-gradient(to right, #ffffff00, #ffffff);
+}
+
 #header {
   z-index: 997;
   -webkit-transition: all 0.5;

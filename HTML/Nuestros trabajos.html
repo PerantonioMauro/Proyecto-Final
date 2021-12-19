@@ -58,40 +58,50 @@
 
 <body>
 
-    <header>
-
-        <!-- LINKS INGRESO -->
-        <div class="linksdeingreso">
-            <a href="../Index.html">Inicio
-                <span class="icon-home"></span>
-            </a>
-​
-            <a href="./Ingresar.html">Ingresar
-                <span class="icon-user"></span>
-            </a>
-​
-            <a href="./MisCompras.html">Mis compras
-                <span class="icon-basket"></span>
-            </a>
-        </div>
-​
-        <p class="Buscar">Buscar
-            <span class="icon-search"></span>
-        </p>
-
-
-
-<!-- MENU DE NAVEGACION -->
-<nav class="categorias">
-    <ul>
-        <li><a href="./Novedades.html">Novedades</a></li>
-        <li><a href="./Living.html">Living</a></li>
-        <li><a href="./Comedor.html">Comedor</a></li>
-        <li><a href="./Iluminacion.html">Iluminacion</a></li>
-        <li><a href="./Decoracion.html">Decoracion</a></li>
-    </ul>
-</nav>
-</header>
+    <header class="fixed-top d-flex justify-content-center align-items-center header-transparent">
+        
+        <!--NAVBAR-->
+        <!--BOOTSTRAP-->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">Inner Beauty</a>
+              <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./HTML/Ingresar.html">Ingresar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./HTML/MisCompras.html">Mis Compras</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categorias
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="./HTML/Comedor.html">Comedor</a></li>
+                      <li><a class="dropdown-item" href="./HTML/Decoracion.html">Decoracion</a></li>
+                      <li><a class="dropdown-item" href="./HTML/Iluminacion.html">Iluminacion</a></li>
+                      <li><a class="dropdown-item" href="./HTML/Living.html">Living</a></li>
+                      <li><a class="dropdown-item" href="./HTML/Novedades.html">Novedades</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./HTML/Consultas.html">Consultas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./HTML/Envios.html">Envios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./HTML/Nosotros.html">Nosotros</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
 
     <section>
 
@@ -123,7 +133,7 @@
         <div class="box">
             <figure>
                 <a href="./index.html">
-                    <img src="./Multimedia/Logo.png"  alt="Logo de inner Beauty">
+                    <img src="./Multimedia/Logo.png" width="100%"  alt="Logo de inner Beauty">
                 </a>
             </figure>
         </div>

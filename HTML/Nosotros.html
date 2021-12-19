@@ -58,31 +58,49 @@
 
 <body>
 
-    <!-- HEADER -->
-    <!--BOOTSRAP-->
-    <header id="header" class="fixed-top d-flex justify-content-center align-items-center header-transparent">
-
-        <nav id="navbar" class="navbar">
-            <ul>
-                <li><a class="nav-link scrollto active" href="../index.html">Inicio</a></li>
-                <li><a class="nav-link scrollto" href="./Ingresar.html">Ingresar</a></li>
-                <li><a class="nav-link scrollto" href="./Nosotros.html">Nosotros</a></li>
-                <li><a class="nav-link scrollto" href="./Envios.html">Envios</a></li>
-                <li><a class="nav-link scrollto " href="./Consultas.html">Consultas</a></li>
-                <li class="dropdown"><a href="#"><span>Categorias</span> <i class="bi bi-chevron-down"></i></a>
-                    <ul>
-                        <li><a href="./Novedades.html">Novedades</a></li>
-                        <li><a href="./Living.html">Living</a></li>
-                        <li><a href="./Comedor.html">Comedor</a></li>
-                        <li><a href="./Iluminacion.html">Iluminacion</a></li>
-                        <li><a href="./Decoracion.html">Decoracion</a></li>
+    <header class="fixed-top d-flex justify-content-center align-items-center header-transparent">
+        
+        <!--NAVBAR-->
+        <!--BOOTSTRAP-->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">Inner Beauty</a>
+              <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./Ingresar.html">Ingresar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./MisCompras.html">Mis Compras</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categorias
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="./Comedor.html">Comedor</a></li>
+                      <li><a class="dropdown-item" href="./Decoracion.html">Decoracion</a></li>
+                      <li><a class="dropdown-item" href="./Iluminacion.html">Iluminacion</a></li>
+                      <li><a class="dropdown-item" href="./Living.html">Living</a></li>
+                      <li><a class="dropdown-item" href="./Novedades.html">Novedades</a></li>
                     </ul>
-                </li>
-                <li><a class="nav-link scrollto" href="./MisCompras.html">Mis compras<ion-icon name="cart"></ion-icon></a></li>
-            </ul>
-
-        </nav>
-
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Consultas.html">Consultas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Envios.html">Envios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Nosotros.html">Nosotros</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
 
@@ -126,8 +144,8 @@
         <div class="grupo-1">
             <div class="box">
                 <figure>
-                    <a href="./index.html">
-                        <img src="./Multimedia/Logo.png"  alt="Logo de inner Beauty">
+                    <a href="../index.html">
+                        <img src="../Multimedia/Logo.png" width="100%"  alt="Logo de inner Beauty">
                     </a>
                 </figure>
             </div>
